@@ -1,56 +1,43 @@
-# Open-AI-to-Z-Challenge-
+1. **Project Title + Tagline**
+   Uncovering the Forgotten Temple: A Digital Archaeology Quest in the Amazon Rainforest
 
-## 🌿 OpenAI to Z Challenge – Lost Civilizations in the Amazon Waterfall Region
+2. **Project Overview**
+   This project aims to identify a hidden archaeological site deep in the Amazon rainforest using open-source satellite imagery, Lidar, and vegetation data. Our goal is to uncover what may be a forgotten temple or village structure          buried under the forest canopy.
 
-**🔍 Discovering Ancient Patterns Using AI + Satellite Imagery**
+3. **Objectives / Problem Statement**
+    Detect man-made geometric shapes hidden under dense trees.
+    Combine multiple open data sources to support your claim.
+    Provide a reproducible method that can be reused to discover more sites.
+ 
+4. **Tools & Technologies Used**
+    Mention what tools and libraries you used.
+   - Python, Jupyter Notebook
+   - Google Earth Engine
+   - Rasterio, Geopandas
+   - QGIS for map overlays
+   - Sentinel-2 and Lidar from ICESat-2
 
-This project is built for the [Kaggle OpenAI to Z Challenge](https://www.kaggle.com/competitions/openai-to-z-challenge), aimed at uncovering hidden ancient civilizations, lost temples, and historical patterns in the Amazon rainforest using AI tools, satellite maps, and geospatial insights.
+5. **Data Sources**
+   [Sentinel-2 Imagery](https://scihub.copernicus.eu/)
+   [ICESat-2 Lidar (ATL08)](https://nsidc.org/data/ATL08)
 
----
+6. **Key Results / Findings**
+   Found rectangular raised structures not natural in shape
+   NDVI showed inconsistent vegetation recovery in that area
+   Overlap between elevation and spectral changes = potential ruins!
 
-### 🧭 Project Goal
+7. **Visuals**
+   [Site Detection Map](images/temple_site.png)
 
-To investigate a remote **waterfall region in the Amazon jungle** (Coordinates: `Latitude -3.44974935, Longitude -62.13453429`) and identify possible signs of:
+8. **How to Run the Code**
+   1. Clone this repo
+   2. Install requirements using `pip install -r requirements.txt`
+   3. Open the notebook in `notebooks/temple_detection.ipynb`
 
-* 🏛️ Ancient settlements or temples
-* 🔲 Geometric earthworks (circles, squares)
-* 🛤️ Lost roads, mounds, canals
-* 🌿 Domesticated tree zones (Brazil nut, cacao, etc.)
+ 9. **Submission Info / Track**
+    Submitted for: Kaggle OpenAI to Z Challenge (Track: Exploration & Discovery)
 
----
-
-### 🧠 Tools & Technologies Used
-
-* **GPT-4 Vision** for pattern analysis and natural feature recognition
-* **Google Earth / Maps** for satellite-based exploration
-* **Python (OpenCV, NumPy)** for edge detection and terrain analysis
-* **QGIS / LIDAR overlays** (optional step)
-* **CLIP model (OpenAI)** for image-text mapping
-* **Jupyter Notebook** for all code + experiments
-
----
-
-### 🛰️ Key Insight
-
-> Early results from the waterfall region reveal rectangular land depressions and vegetation patterns consistent with pre-Columbian human activity — potentially pointing to a lost sacred site or ancient engineered mound.
-
----
-
-### 📁 Repository Contents
-
-* `notebooks/` – All analysis notebooks
-* `images/` – Annotated satellite screenshots
-* `data/` – Coordinate data and satellite links
-* `report.pdf` – Final submission report (200 words + evidence)
-* `README.md` – You’re reading it!
-* `LICENSE` – MIT License
-
----
-
-### ✨ Outcome
-
-This repo contributes toward the global effort to digitally rediscover lost Amazonian civilizations — combining the power of AI + open satellite data.
-
-> 🔗 [Live Location Preview on Google Earth](https://earth.google.com/web/@-3.44974935,-62.13453429,112.13387405a,289059.42522358d,35y,6.66647171h,0t,0r/data=CgRCAggBMikKJwolCiExNjF4LVRxcS02M0s2ZzdvMXpLdlhYTGlSbjZXMTg5Z3kgAToDCgEwQgIIAEoICIyuq4QHEAE)
+10. **License + Acknowledgement**
+    thanks to Kaggle, OpenAI, and data providers. And add MIT license if needed.
 
 
