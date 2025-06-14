@@ -1,0 +1,10 @@
+1. Introduction
+2. Imports + Setup
+3. Load Satellite and Lidar Data
+4. Compare 2020 vs 2025 Satellite Views
+5. Generate NDVI Anomaly Map
+6. Detect Elevation Patterns with Lidar
+7. Combine Layers + Draw Bounding Box
+8. Output Results + Coordinates
+9. Conclusion + Insights
+10. References 
